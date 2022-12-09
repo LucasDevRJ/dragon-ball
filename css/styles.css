@@ -61,6 +61,7 @@ body {
 
 .personagens-img {
 	width: 90%;
+	border-radius: 5px;
 }
 
 .personagens-subtitulo {
