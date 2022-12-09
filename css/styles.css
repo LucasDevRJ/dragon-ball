@@ -7,8 +7,20 @@ body {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 80px;
+	background: #FFF;
 }
 
-.img-capa {
+.capa {
 	width: 100%;
+}
+
+.enredo-titulo {
+	text-align: center;
+	font-size: 3rem;
+}
+
+.enredo-texto {
+	padding: 0 100px;
+	font-size: 1.3rem;
 }
