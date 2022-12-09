@@ -60,7 +60,7 @@ body {
 }
 
 .personagens-img {
-	width: 90%;
+	width: 80%;
 	border-radius: 5px;
 }
 
@@ -95,7 +95,7 @@ body {
 }
 
 .curiosidades-imgs {
-	width: 90%;
+	width: 80%;
 	cursor: pointer;
 	transition: 1s;
 	box-shadow: 10px 10px;
