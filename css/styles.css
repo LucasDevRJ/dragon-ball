@@ -1,3 +1,5 @@
+/* CSS do background da página */
+
 body {
 	background: #FFB443;
 }
@@ -9,9 +11,13 @@ body {
 	background: #FFF;
 }
 
+/* CSS do cabeçalho da página */
+
 .capa {
 	width: 100%;
 }
+
+/* CSS da seção enredo */
 
 .enredo {
 	text-align: center;
@@ -46,6 +52,8 @@ body {
 	transform: scale(1.1);
 }
 
+/* CSS da seção personagens */
+
 .personagens {
 	text-align: center;
 }
@@ -67,6 +75,25 @@ body {
 .personagens-subtitulo {
 	font-size: 25px;
 }
+
+@media screen and (min-width: 200px) {
+	.personagens-subtitulo {
+		position: relative;
+    	right: 13px;
+	}
+
+	.personagens-texto {
+		position: relative;
+		right: 12px;
+	}
+
+	.personagens-img {
+		position: relative;
+		right: 14px;
+	}
+}
+
+/* CSS da seção curiosidades */
 
 .curiosidades {
 	text-align: center;
@@ -110,6 +137,26 @@ body {
 .curiosidades-subtitulo {
 	text-align: left;
 }
+
+@media screen and (min-width: 200px) {
+	.curiosidades-subtitulo {
+		text-align: center;
+	}
+
+	.curiosidades-texto {
+		text-align: center;
+		position: relative;
+   	 	right: 12px;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.curiosidades-texto {
+		text-align: left;
+	}
+}
+
+/* CSS da seção bibliografia */
 
 .bibliografia {
 	border-top: 1px dashed #DDD;
