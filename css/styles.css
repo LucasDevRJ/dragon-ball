@@ -50,10 +50,17 @@ body {
 	font-size: 40px;
 }
 
-
 .curiosidades-lista {
 	list-style: none;
 	font-size: 22px;
+}
+
+.lista-titulo {
+	text-align: left;
+}
+
+.curiosidades-subtitulo {
+	text-align: left;
 }
 
 .curiosidades-texto {
@@ -61,5 +68,5 @@ body {
 }
 
 .curiosidades-imgs {
-	width: 60%;
+	width: 90%;
 }
