@@ -17,10 +17,12 @@ body {
 
 .enredo-titulo {
 	text-align: center;
-	font-size: 3rem;
+	font-size: 60px;
+	font-family: serif;
 }
 
 .enredo-texto {
 	padding: 0 100px;
-	font-size: 1.3rem;
+	font-size: 22px;
+	font-family: cursive;
 }
