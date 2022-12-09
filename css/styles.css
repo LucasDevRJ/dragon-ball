@@ -7,7 +7,7 @@ body {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 80px;
+	margin: 80px auto;
 	background: #FFF;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .enredo-img {
-	margin-top: 30px;
+	margin: 50px 0;
 	width: 90%;
 	cursor: pointer;
 	transition: 1s;
@@ -40,4 +40,26 @@ body {
 
 .enredo-img:hover {
 	transform: scale(1.1);
+}
+
+.curiosidades {
+	text-align: center;
+}
+
+.curiosidades-titulo {
+	font-size: 40px;
+}
+
+
+.curiosidades-lista {
+	list-style: none;
+	font-size: 22px;
+}
+
+.curiosidades-texto {
+	text-align: left;
+}
+
+.curiosidades-imgs {
+	width: 60%;
 }
