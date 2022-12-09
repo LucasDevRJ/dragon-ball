@@ -20,13 +20,19 @@ body {
 .enredo-titulo {
 	text-align: center;
 	font-size: 60px;
+}
+
+.font-cursive {
+	font-family: cursive;
+}
+
+.font-serif {
 	font-family: serif;
 }
 
 .enredo-texto {
 	font-size: 22px;
 	padding: 0 20px;
-	font-family: cursive;
 }
 
 .enredo-img {
@@ -38,6 +44,14 @@ body {
 
 .enredo-img:hover {
 	transform: scale(1.1);
+}
+
+.personagens {
+	text-align: center;
+}
+
+.personagens-lista {
+
 }
 
 .curiosidades {
