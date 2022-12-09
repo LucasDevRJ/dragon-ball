@@ -109,3 +109,21 @@ body {
 .curiosidades-subtitulo {
 	text-align: left;
 }
+
+.bibliografia {
+	border-top: 1px dashed #DDD;
+	padding: 10px 20px;
+}
+
+.bibliografia-titulo {
+	font-size: 23px;
+}
+
+.bibliografia-texto {
+	font-family: "Georgia", serif;
+}
+
+.link {
+	color: #FF8C00;
+	text-decoration: none;
+}
