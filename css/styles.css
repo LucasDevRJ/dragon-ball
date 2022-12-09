@@ -5,8 +5,6 @@ body {
 .container {
 	max-width: 1200px;
 	position: relative;
-	margin-left: auto;
-	margin-right: auto;
 	margin: 80px auto;
 	background: #FFF;
 }
@@ -46,6 +44,7 @@ body {
 	text-align: center;
 }
 
+
 .curiosidades-titulo {
 	font-size: 40px;
 }
@@ -69,4 +68,17 @@ body {
 
 .curiosidades-imgs {
 	width: 90%;
+	cursor: pointer;
+	transition: 1s;
+	box-shadow: 10px 10px;
+	border-radius: 5px;
+	margin: 20px 0;
+}
+
+.curiosidades-imgs:hover {
+	transform: scale(1.1);
+}
+
+.curiosidades-subtitulo {
+	text-align: left;
 }
