@@ -50,8 +50,21 @@ body {
 	text-align: center;
 }
 
-.personagens-lista {
+.personagens-titulo {
+	font-size: 40px;
+}
 
+.personagens-lista {
+	font-size: 22px;
+	list-style: none;
+}
+
+.personagens-img {
+	width: 90%;
+}
+
+.personagens-subtitulo {
+	font-size: 25px;
 }
 
 .curiosidades {
